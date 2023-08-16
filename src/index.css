@@ -16,19 +16,46 @@
 }
 
 .content-div {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+}
+
+.content-div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 250px;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
 }
 
-.content-div:hover {
-  background-image: linear-gradient(
-    to right,
-    rgba(112, 157, 225, 0.8) hsla(242, 74%, 61% 0.8)
-  );
+.content-div:hover::before {
+  opacity: 0.2;
 }
 
+/* Specific background images for each project */
+.content-div.meenCutz::before {
+  background-image: url("./assets/meen.png");
+}
 
+.content-div.mp3Converter::before {
+  background-image: url("./assets/Youtube.png");
+}
 
+.content-div.meetApp::before {
+  background-image: url("./assets/Meet.png");
+}
 
+.content-div.myFlix::before {
+  background-image: url("./assets/myFlix.png");
+}
+
+.content-div.pokeDex::before {
+  background-image: url("./assets/Pokedex.png");
+}
