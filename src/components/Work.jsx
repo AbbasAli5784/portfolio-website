@@ -1,5 +1,4 @@
 import React from "react";
-import mp3 from "../assets/mp3.png";
 
 const Work = () => {
   return (
