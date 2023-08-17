@@ -39,7 +39,6 @@
   opacity: 0.2;
 }
 
-/* Specific background images for each project */
 .content-div.meenCutz::before {
   background-image: url("./assets/meen.png");
 }
@@ -58,4 +57,23 @@
 
 .content-div.pokeDex::before {
   background-image: url("./assets/Pokedex.png");
+}
+
+@media (max-width: 768px) {
+  .content-div {
+    height: 250px;
+    width: 312px;
+  }
+  .skills-section {
+    padding-bottom: 900px; /* Adjust this value as needed */
+  }
+  .contact-page {
+    padding-top: 300px;
+  }
+  .about-section {
+    padding-bottom: 600px;
+  }
+  .work-section{
+    padding-bottom: 300px;
+  }
 }
