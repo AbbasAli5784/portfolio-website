@@ -65,15 +65,23 @@
     width: 312px;
   }
   .skills-section {
-    padding-bottom: 900px; /* Adjust this value as needed */
+    padding-bottom: 900px;
+    padding-top: 200px; /* Adjust this value as needed */
+    height: 1000px;
   }
   .contact-page {
-    padding-top: 300px;
+    padding-top: 500px;
+    height: 1200px;
   }
   .about-section {
     padding-bottom: 600px;
+    padding-top: 200px;
   }
   .work-section{
     padding-bottom: 300px;
+    padding-top: 400px;
+  }
+  .home-screen{
+    padding-bottom: 200px;
   }
 }
