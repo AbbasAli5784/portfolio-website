@@ -22,7 +22,7 @@ const Work = () => {
                 MeenCutz Booking App
               </span>
               <div className="pt-8 text-center">
-                <a href="https://iridescent-alpaca-41669a.netlify.app/">
+                <a href="https://meencutz.com/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -64,7 +64,7 @@ const Work = () => {
                 Meet App
               </span>
               <div className="pt-8 text-center">
-                <a href="##">
+                <a href="https://abbasali5784.github.io/Meet-App/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -85,7 +85,7 @@ const Work = () => {
                 MyFlix App
               </span>
               <div className="pt-8 text-center">
-                <a href="##">
+                <a href="https://my-flix-app-12345325.netlify.app/movies">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -106,7 +106,7 @@ const Work = () => {
                 PokeDex App
               </span>
               <div className="pt-8 text-center">
-                <a href="##">
+                <a href="https://main--velvety-sorbet-8dfe2c.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
