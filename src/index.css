@@ -31,7 +31,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.3s ease;
   pointer-events: none;
 }
 
@@ -41,6 +41,7 @@
 
 .content-div.meenCutz::before {
   background-image: url("./assets/meen.png");
+  /* opacity: 0.06; */
 }
 
 .content-div.mp3Converter::before {
@@ -66,7 +67,7 @@
   }
   .skills-section {
     padding-bottom: 900px;
-    padding-top: 200px; 
+    padding-top: 200px;
     height: 1000px;
   }
   .contact-page {
@@ -77,11 +78,15 @@
     padding-bottom: 600px;
     padding-top: 200px;
   }
-  .work-section{
+  .work-section {
     padding-bottom: 300px;
     padding-top: 400px;
   }
-  .home-screen{
+  .home-screen {
     padding-bottom: 200px;
+  }
+  .modals {
+    width: 182vw;
+    margin-left: -40vw;
   }
 }

@@ -306,7 +306,7 @@ const Work = () => {
         </div>
       </div>
       {isModalOpen && (
-        <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center z-50">
+        <div className=" modals fixed top-0 left-0 w-full h-full flex items-center justify-center z-50 sm: w-13">
           <div
             className="bg-white p-8 rounded shadow-lg w-1/2 z-10"
             style={{ maxHeight: "80vh", overflowY: "auto" }}
